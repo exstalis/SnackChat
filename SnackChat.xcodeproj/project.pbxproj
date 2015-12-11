@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DDD8CAD1C1A5810001DF925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD8CAC1C1A5810001DF925 /* AppDelegate.swift */; };
+		2DDD8CAF1C1A5810001DF925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD8CAE1C1A5810001DF925 /* ViewController.swift */; };
+		2DDD8CB21C1A5810001DF925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDD8CB01C1A5810001DF925 /* Main.storyboard */; };
+		2DDD8CB41C1A5810001DF925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDD8CB31C1A5810001DF925 /* Assets.xcassets */; };
+		2DDD8CB71C1A5811001DF925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDD8CB51C1A5810001DF925 /* LaunchScreen.storyboard */; };
+		2DDD8CC21C1A5811001DF925 /* SnackChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD8CC11C1A5811001DF925 /* SnackChatTests.swift */; };
+		2DDD8CCD1C1A5811001DF925 /* SnackChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD8CCC1C1A5811001DF925 /* SnackChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DDD8CBE1C1A5811001DF925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DDD8CA11C1A5810001DF925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DDD8CA81C1A5810001DF925;
+			remoteInfo = SnackChat;
+		};
+		2DDD8CC91C1A5811001DF925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DDD8CA11C1A5810001DF925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DDD8CA81C1A5810001DF925;
+			remoteInfo = SnackChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DDD8CA91C1A5810001DF925 /* SnackChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDD8CAC1C1A5810001DF925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DDD8CAE1C1A5810001DF925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DDD8CB11C1A5810001DF925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DDD8CB31C1A5810001DF925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DDD8CB61C1A5811001DF925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DDD8CB81C1A5811001DF925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DDD8CBD1C1A5811001DF925 /* SnackChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDD8CC11C1A5811001DF925 /* SnackChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackChatTests.swift; sourceTree = "<group>"; };
+		2DDD8CC31C1A5811001DF925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DDD8CC81C1A5811001DF925 /* SnackChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDD8CCC1C1A5811001DF925 /* SnackChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackChatUITests.swift; sourceTree = "<group>"; };
+		2DDD8CCE1C1A5811001DF925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DDD8CA61C1A5810001DF925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDD8CBA1C1A5811001DF925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDD8CC51C1A5811001DF925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DDD8CA01C1A5810001DF925 = {
+			isa = PBXGroup;
+			children = (
+				2DDD8CAB1C1A5810001DF925 /* SnackChat */,
+				2DDD8CC01C1A5811001DF925 /* SnackChatTests */,
+				2DDD8CCB1C1A5811001DF925 /* SnackChatUITests */,
+				2DDD8CAA1C1A5810001DF925 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DDD8CAA1C1A5810001DF925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD8CA91C1A5810001DF925 /* SnackChat.app */,
+				2DDD8CBD1C1A5811001DF925 /* SnackChatTests.xctest */,
+				2DDD8CC81C1A5811001DF925 /* SnackChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DDD8CAB1C1A5810001DF925 /* SnackChat */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD8CAC1C1A5810001DF925 /* AppDelegate.swift */,
+				2DDD8CAE1C1A5810001DF925 /* ViewController.swift */,
+				2DDD8CB01C1A5810001DF925 /* Main.storyboard */,
+				2DDD8CB31C1A5810001DF925 /* Assets.xcassets */,
+				2DDD8CB51C1A5810001DF925 /* LaunchScreen.storyboard */,
+				2DDD8CB81C1A5811001DF925 /* Info.plist */,
+			);
+			path = SnackChat;
+			sourceTree = "<group>";
+		};
+		2DDD8CC01C1A5811001DF925 /* SnackChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD8CC11C1A5811001DF925 /* SnackChatTests.swift */,
+				2DDD8CC31C1A5811001DF925 /* Info.plist */,
+			);
+			path = SnackChatTests;
+			sourceTree = "<group>";
+		};
+		2DDD8CCB1C1A5811001DF925 /* SnackChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD8CCC1C1A5811001DF925 /* SnackChatUITests.swift */,
+				2DDD8CCE1C1A5811001DF925 /* Info.plist */,
+			);
+			path = SnackChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DDD8CA81C1A5810001DF925 /* SnackChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDD8CD11C1A5811001DF925 /* Build configuration list for PBXNativeTarget "SnackChat" */;
+			buildPhases = (
+				2DDD8CA51C1A5810001DF925 /* Sources */,
+				2DDD8CA61C1A5810001DF925 /* Frameworks */,
+				2DDD8CA71C1A5810001DF925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnackChat;
+			productName = SnackChat;
+			productReference = 2DDD8CA91C1A5810001DF925 /* SnackChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DDD8CBC1C1A5811001DF925 /* SnackChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDD8CD41C1A5811001DF925 /* Build configuration list for PBXNativeTarget "SnackChatTests" */;
+			buildPhases = (
+				2DDD8CB91C1A5811001DF925 /* Sources */,
+				2DDD8CBA1C1A5811001DF925 /* Frameworks */,
+				2DDD8CBB1C1A5811001DF925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DDD8CBF1C1A5811001DF925 /* PBXTargetDependency */,
+			);
+			name = SnackChatTests;
+			productName = SnackChatTests;
+			productReference = 2DDD8CBD1C1A5811001DF925 /* SnackChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DDD8CC71C1A5811001DF925 /* SnackChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDD8CD71C1A5811001DF925 /* Build configuration list for PBXNativeTarget "SnackChatUITests" */;
+			buildPhases = (
+				2DDD8CC41C1A5811001DF925 /* Sources */,
+				2DDD8CC51C1A5811001DF925 /* Frameworks */,
+				2DDD8CC61C1A5811001DF925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DDD8CCA1C1A5811001DF925 /* PBXTargetDependency */,
+			);
+			name = SnackChatUITests;
+			productName = SnackChatUITests;
+			productReference = 2DDD8CC81C1A5811001DF925 /* SnackChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DDD8CA11C1A5810001DF925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "elif ece arslan";
+				TargetAttributes = {
+					2DDD8CA81C1A5810001DF925 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2DDD8CBC1C1A5811001DF925 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2DDD8CA81C1A5810001DF925;
+					};
+					2DDD8CC71C1A5811001DF925 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2DDD8CA81C1A5810001DF925;
+					};
+				};
+			};
+			buildConfigurationList = 2DDD8CA41C1A5810001DF925 /* Build configuration list for PBXProject "SnackChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DDD8CA01C1A5810001DF925;
+			productRefGroup = 2DDD8CAA1C1A5810001DF925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DDD8CA81C1A5810001DF925 /* SnackChat */,
+				2DDD8CBC1C1A5811001DF925 /* SnackChatTests */,
+				2DDD8CC71C1A5811001DF925 /* SnackChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DDD8CA71C1A5810001DF925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDD8CB71C1A5811001DF925 /* LaunchScreen.storyboard in Resources */,
+				2DDD8CB41C1A5810001DF925 /* Assets.xcassets in Resources */,
+				2DDD8CB21C1A5810001DF925 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDD8CBB1C1A5811001DF925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDD8CC61C1A5811001DF925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DDD8CA51C1A5810001DF925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDD8CAF1C1A5810001DF925 /* ViewController.swift in Sources */,
+				2DDD8CAD1C1A5810001DF925 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDD8CB91C1A5811001DF925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDD8CC21C1A5811001DF925 /* SnackChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDD8CC41C1A5811001DF925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDD8CCD1C1A5811001DF925 /* SnackChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DDD8CBF1C1A5811001DF925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DDD8CA81C1A5810001DF925 /* SnackChat */;
+			targetProxy = 2DDD8CBE1C1A5811001DF925 /* PBXContainerItemProxy */;
+		};
+		2DDD8CCA1C1A5811001DF925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DDD8CA81C1A5810001DF925 /* SnackChat */;
+			targetProxy = 2DDD8CC91C1A5811001DF925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DDD8CB01C1A5810001DF925 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DDD8CB11C1A5810001DF925 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DDD8CB51C1A5810001DF925 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DDD8CB61C1A5811001DF925 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DDD8CCF1C1A5811001DF925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DDD8CD01C1A5811001DF925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DDD8CD21C1A5811001DF925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnackChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exstalis.SnackChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DDD8CD31C1A5811001DF925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnackChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exstalis.SnackChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2DDD8CD51C1A5811001DF925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnackChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exstalis.SnackChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnackChat.app/SnackChat";
+			};
+			name = Debug;
+		};
+		2DDD8CD61C1A5811001DF925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnackChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exstalis.SnackChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnackChat.app/SnackChat";
+			};
+			name = Release;
+		};
+		2DDD8CD81C1A5811001DF925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnackChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exstalis.SnackChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnackChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2DDD8CD91C1A5811001DF925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnackChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = exstalis.SnackChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnackChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DDD8CA41C1A5810001DF925 /* Build configuration list for PBXProject "SnackChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDD8CCF1C1A5811001DF925 /* Debug */,
+				2DDD8CD01C1A5811001DF925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DDD8CD11C1A5811001DF925 /* Build configuration list for PBXNativeTarget "SnackChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDD8CD21C1A5811001DF925 /* Debug */,
+				2DDD8CD31C1A5811001DF925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DDD8CD41C1A5811001DF925 /* Build configuration list for PBXNativeTarget "SnackChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDD8CD51C1A5811001DF925 /* Debug */,
+				2DDD8CD61C1A5811001DF925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DDD8CD71C1A5811001DF925 /* Build configuration list for PBXNativeTarget "SnackChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDD8CD81C1A5811001DF925 /* Debug */,
+				2DDD8CD91C1A5811001DF925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DDD8CA11C1A5810001DF925 /* Project object */;
+}
